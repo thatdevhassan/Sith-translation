@@ -1,0 +1,41 @@
+/* stylesheet */
+body{
+    max-width:100%;
+    max-height:100%;
+    margin:auto;
+    background-image:url('assets/sithback.jpg');
+
+}
+
+/* header */
+div h1{
+    color:white;
+    display:block;
+    margin:auto;
+    text-align:center;
+    padding: 1rem;
+}
+
+.text{
+    height: 100px;
+    width:400px;
+    display:block;
+    margin:auto;
+}
+
+div .in-button{
+    display:block;
+    /* for aligning to center */
+    margin:auto;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: 2px orange solid;
+    color:white;
+    background-color:transparent;
+    
+}
+
+div .in-button:hover{
+    color:white;
+    background-color:rgb(230, 184, 100);
+}
