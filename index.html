@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sith Translators | A site for Star-Wars enthusiast</title>
-    <link rel="icon" type="image/png"  href ='assets/sith.png'>
+    <link rel="icon" type="image/png" href='assets/sith.png'>
 
     <!-- linking css -->
     <link rel="stylesheet" href="style.css">
 
 
 </head>
+
 <body>
     <!-- image for later styling -->
     <!-- <div>
@@ -19,15 +21,16 @@
 
     <div>
         <h1>
-            Sith Translator
+            Slith Translator
         </h1>
     </div>
 
-    <div>
-        <textarea class="in-textarea text" id="in-textarea" placeholder='enter the text you want to translate'>
-
-        </textarea>
+    <!-- input text -->
+    <div class="textarea">
+        <textarea class="text in-textarea" id="in-textarea" placeholder='enter the text you want to translate'></textarea>
     </div>
+
+    <!-- button -->
 
     <div>
         <button class="in-button" type="submit">
@@ -36,12 +39,25 @@
     </div>
 
     <!-- after translation -->
-    <div>
-        <textarea  class="out-textarea text" id="out-textarea" placeholder="The tranlation will be shown here"></textarea>
+    <div class="textarea">
+        <textarea class="text out-textarea" id="out-textarea"
+            placeholder="The tranlation will be shown here"></textarea>
     </div>
 
     <!-- footer -->
-
+<!-- <footer>
+    <ul>
+        <li>my work</li>
+    </ul>
+    <ul>
+        <li>my work</li>
+    </ul>
+    <ul>
+        <li>my work</li>
+    </ul>
+</footer> -->
+<script src="app.js" type='text/javascript'></script>
 
 </body>
+
 </html>
