@@ -7,10 +7,16 @@
 }
 
 body{
-    background-image:url('assets/sithback.jpg');
     font-family: 'Do Hyeon','Arial';
     letter-spacing: 2px;
+    margin:0px;
 }
+.hero-image{
+    background-image:url('assets/sithback.jpg');
+    background-repeat: no-repeat;
+    background-size: 1500px 850px;
+}
+
 
 /* header */
 div h1{
