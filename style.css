@@ -19,15 +19,26 @@ body{
 
 
 /* header */
-div h1{
+
+
+
+
+/* div h1{
     color:white;
     display:block;
     margin:auto;
     text-align:center;
     padding-top: 2rem;
     padding-bottom: 1rem;
+ */
+
+
+
     /* border: 2px solid; */
-}
+
+
+
+    /* }
 
 .text{
     height: 100px;
@@ -50,9 +61,13 @@ div h1{
 }
 
 div .in-button{
-    display:block;
+    display:block; */
+
+
     /* for aligning to center */
-    margin:auto;
+    
+    
+    /* margin:auto;
     padding: 1rem 2rem;
     border-radius: 0.5rem;
     border: 2px solid var(--primary-color);
@@ -67,4 +82,9 @@ div .in-button:hover{
     color:black;
     font-weight: bold;
     background-color:var(--primary-color);
-}
+} */
+
+
+/* Starting from here */
+
+
