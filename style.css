@@ -23,6 +23,7 @@ body{
     display:block;
     margin:auto;
     text-align: center;
+    color:white;
 }
 
 .textarea{
@@ -66,4 +67,39 @@ body{
 
 }
 
+.cl-footer{
+    
+}
 
+.cl-footer .div-ul{
+    text-align:center;
+    color:var(--primary-color);
+
+}
+
+.cl-footer div{
+}
+.div-ul .ul-li{
+    list-style:none;
+    color:white;
+    padding:1rem;
+}
+
+
+.div-ul .ul-li .list{
+    display:inline;
+    padding: 0rem 1rem;
+}
+
+.icon-img{
+    height:50px;
+    width:50px;
+    border:0px;
+
+}
+
+.icon-img:hover{
+    background-color:var(--primary-color);
+    height:70px;
+    width:70px;
+}
