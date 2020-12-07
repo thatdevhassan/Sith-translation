@@ -64,6 +64,7 @@ body{
     text-align:center;
     font-family: 'Do Hyeon';
     font-size:20px;
+    color:white;
 
 }
 
@@ -80,9 +81,11 @@ body{
 .cl-footer div{
 }
 .div-ul .ul-li{
+    position:relative;
     list-style:none;
     color:white;
     padding:1rem;
+
 }
 
 
@@ -92,14 +95,19 @@ body{
 }
 
 .icon-img{
+    position:relative;
     height:50px;
     width:50px;
-    border:0px;
+    /* border:0px; */
 
 }
+
+
+/* -------------------- */
 
 .icon-img:hover{
     background-color:var(--primary-color);
     height:70px;
     width:70px;
 }
+
